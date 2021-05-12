@@ -1,0 +1,187 @@
+@import "nullstyle.scss";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wraper{
+    min-height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
+.content{
+    flex: 1 1 auto;
+}
+
+
+
+.logo{
+    background-color:#000000;
+}
+.logo__row{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.logo__body{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.logo__body:hover{
+    color: orange;
+}
+
+
+
+.menu{
+    display: flex;
+    padding: 15px 0;
+}
+.menu li > a{
+    background-color:white;
+    border-radius: 30px;
+    padding: 0 40px;
+    color: black;
+}
+.menu li > a:hover{
+    color: red;
+}
+
+
+
+
+.title{
+    color: gray;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.colums__title{
+    text-align: center;
+    margin: 100px 0 25px 0;
+}
+
+.colums__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}
+.colums__column{
+    flex: 0 1 50%;
+    margin: 80px 0 150px 0;
+    padding: 0 8px;
+}
+.item__row{
+    display: flex;
+}
+
+.item__image{
+    flex: 0 0 300px
+}
+.images{
+    border-radius: 10px;
+    width: 300px;
+}
+.item__body{
+    flex: 1 1 auto;
+    padding: 0 0 0 15px;
+}
+.colums{
+    background-color: #F5F5F5;
+    padding: 50px 0 20px 0;
+}
+.item__title{
+    color: gray;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 13px 0;
+}
+
+.vertical{
+    padding: 50px 0;
+}
+.vertical__title{
+    text-align: center;
+    margin: 100px 0 25px 0;
+}
+.vertical__body{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.vertical__row{
+    display: flex;
+    justify-content: center;
+    margin: 0 22.5px;
+    
+
+}
+.vertical__column{
+    flex: 0 1 33.333%;
+    padding: 0 22.5px;
+}
+.vertical__item{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border:1px solid black;
+    padding: 0 0 20px 0;
+}
+.vertical__subtitle{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 12px 0;
+}
+.vertical__label{
+    background-color: #FF0000;
+    text-align: center;
+    color: black;
+    padding: 15px 0;
+    font-size: 30px;
+
+}
+.vertical__text{
+    padding: 20px;
+    font-size: 40px;
+    line-height: 150px;
+    text-align: center;
+}
+
+.footer{
+    background-color:#DCDCDC;
+}
+.footer__row{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.footer__text{
+    color: #708090;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+.vertical__btn{
+    display: block;
+    margin: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 18px;
+}
+
+    
+
+
+
+
+
